@@ -34,7 +34,7 @@ const ChatBar = () => {
         <>
             <div>
                 {data.map((info) => (
-                    <div key={info.id} className = 'flex hover:bg-white rounded-2xl cursor-pointer my-4 py-3 px-2'>
+                    <div key={info.id} className = 'transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-y-100 flex hover:bg-white rounded-2xl cursor-pointer py-3 px-2'>
                     <div>
                         {info.avatar}
                     </div>

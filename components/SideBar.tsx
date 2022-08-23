@@ -9,7 +9,7 @@ const SideBar = () =>  {
         <>
         <div className='bg-[#FBFDF6] w-[35%] h-screen px-5 overflow-scroll'>
         <div className='flex justify-between items-center mt-10'>
-            <h1 className='text-3xl font-sans font-light'>Whatsapp</h1>
+            <h1 className='text-3xl font-sans font-medium'>Whatsapp</h1>
             <div className='flex items-center justify-center gap-4'>
                 <Record />
                 <MessageBox />
@@ -26,5 +26,6 @@ const SideBar = () =>  {
         </>
     );
 }
+
 
 export default SideBar;

@@ -22,7 +22,7 @@ const Chat = () => {
                 <ChatBox />
             </div>
 
-            <div className='mx-4 my-2 h-[10%] items-center'>
+            <div className='mx-4 h-[10%] items-center'>
                 <MessageInput />
             </div>
         </div>
